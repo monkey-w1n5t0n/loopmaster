@@ -11,7 +11,7 @@ Loopmaster is a browser-based music coding app (loopmaster.xyz). Users write cod
 ```bash
 bun i                  # Install frontend dependencies
 bun run install:all    # Install both frontend (bun) and backend (deno) deps
-bun dev                # Run both frontend and API server concurrently
+bun dev                # Run both frontend and API server concurrently (portless loopmaster bun dev)
 bun run dev:web        # Frontend only (Vite dev server with HTTPS)
 bun run dev:api        # API server only (Deno)
 bun run build          # Production build
